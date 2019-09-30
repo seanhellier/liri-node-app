@@ -1,6 +1,14 @@
 console.log('this is loaded');
 
 exports.spotify = {
-	id: process.env.b2200fd28aa34c70ad778ac3ded5b8ae,
-	secret: process.env.09372369309942e4a937fb2bca933be7
+	id: process.env.SPOTIFY_ID,
+	secret: process.env.SPOTIFY_SECRET
+};
+// OMDB
+exports.omdbKeys = {
+	id: '2b930214'
+};
+// BANDS IN TOWN
+exports.bandintownKeys = {
+	id: 'codingbootcamp'
 };
